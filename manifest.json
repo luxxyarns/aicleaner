@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "AICleaner",
+  "version": "2.0",
+  "description": "Advanced text cleaner for ChatGPT - fixes em/en dashes, curly quotes, ellipsis, invisible chars, and more. Instant processing with copy-paste functionality.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": [
+    "https://chat.openai.com/*",
+    "https://chatgpt.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon-16.png",
+      "32": "icon-32.png",
+      "48": "icon-48.png",
+      "128": "icon.png"
+    },
+    "default_title": "AICleaner - Advanced text cleanup for ChatGPT"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "icons": {
+    "16": "icon-16.png",
+    "32": "icon-32.png",
+    "48": "icon-48.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["icon.png", "icon-16.png", "icon-32.png", "icon-48.png"],
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ]
+    }
+  ],
+  "homepage_url": "https://github.com/nordfriese/aicleaner",
+  "author": "nordfriese"
+}
