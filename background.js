@@ -5,7 +5,7 @@
  * This service worker handles extension lifecycle events, settings migration,
  * and cross-component communication for the AICleaner extension.
  * 
- * @author nordfriese
+ * @author luxxyarns
  * @version 2.0
  * @description Background service worker for AICleaner extension
  * 

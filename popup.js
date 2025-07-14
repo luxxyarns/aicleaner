@@ -5,7 +5,7 @@
  * including em/en dash replacement, curly quote straightening, ellipsis conversion,
  * invisible character removal, accent stripping, and space normalization.
  * 
- * @author nordfriese
+ * @author luxxyarns
  * @version 2.0
  * @description Popup UI controller for AICleaner extension
  * 

@@ -116,7 +116,7 @@ This project is open source. Feel free to modify and distribute.
 
 ## Author
 
-**nordfriese** - [GitHub Profile](https://github.com/nordfriese)
+**luxxyarns** - [GitHub Profile](https://github.com/luxxyarns)
 
 ## Support
 

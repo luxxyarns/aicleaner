@@ -6,7 +6,7 @@
  * to fix common formatting issues like em/en dashes, curly quotes, ellipsis,
  * invisible characters, accented characters, and space normalization.
  * 
- * @author nordfriese
+ * @author luxxyarns
  * @version 2.0
  * @description Content script for real-time text processing on ChatGPT pages
  * 
