@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "AICleaner",
   "version": "2.0",
-  "description": "Advanced text cleaner for ChatGPT - fixes em/en dashes, curly quotes, ellipsis, invisible chars, and more. Instant processing with copy-paste functionality.",
+  "description": "Advanced text cleaner for ChatGPT - fixes em/en dashes, curly quotes, ellipsis, invisible chars, and more. Instant processing.",
   "permissions": ["storage", "scripting", "activeTab"],
   "host_permissions": [
     "https://chat.openai.com/*",
